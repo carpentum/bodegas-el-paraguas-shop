@@ -901,6 +901,7 @@ class FrontControllerCore extends Controller
     public function setMedia()
     {
         $this->registerStylesheet('theme-main', '/assets/css/theme.css', ['media' => 'all', 'priority' => 50]);
+        $this->registerStylesheet('theme-custom', '/assets/css/bodegaselparaguas-header.css', ['media' => 'all', 'priority' => 60]);
         $this->registerStylesheet('theme-custom', '/assets/css/custom.css', ['media' => 'all', 'priority' => 1000]);
 
         if ($this->context->language->is_rtl) {
