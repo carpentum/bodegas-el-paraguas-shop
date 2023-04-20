@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-18 20:02:07
+/* Smarty version 4.2.1, created on 2023-04-20 19:01:16
   from 'module:psspecialsviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_643edb1fdc1323_51498050',
+  'unifunc' => 'content_64416fdc719ab3_66940577',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_643edb1fdc1323_51498050 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64416fdc719ab3_66940577 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin C:\wamp64\www\prestashop/themes/bodegaselparaguas/modules/ps_specials/views/templates/hook/ps_specials.tpl -->
 <section class="featured-products clearfix mt-3">
   <h2 class="h2 products-section-title text-uppercase">

@@ -22,9 +22,6 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
- <div class="row">
-    <div class="col-md-12 separator-header-line separator-header-line-gruesa"></div>
-</div>
 
 <div class="container">
   <div class="row">
@@ -59,8 +56,8 @@
   </div>
 </div>
 
-<footer id="colophon" class="site-footer row" role="contentinfo">
-    
+<div class="separator-header-line separator-header-line-gruesa"></div>
+<footer class="site-footer">
     <div class="site-info">
         <span class="site-footer-companyinfo">
             <a href="http://www.bodegaselparaguas.com/es_ES/" rel="home"></a> ©2023) | Lugar de Aldea, 135 - 15594 - Cobas, Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">Política de privacidad</a>
