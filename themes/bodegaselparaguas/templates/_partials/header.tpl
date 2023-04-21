@@ -31,17 +31,17 @@
         <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Menú Primario">
             <div class="menu-menu-ppal-container">
                 <ul id="menu-menu-ppal" class="primary-menu">
-                    <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
-                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
-                    <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
-                    <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
-                    <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
-                    <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-18"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
-                    <li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-4 current_page_item current_page_parent menu-item-6"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
-                    <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
-                    <li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
-                    <li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
-                    <li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443 current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
+                    <li class="menu-item current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
                 </ul>
             </div>                                
         </nav><!-- .main-navigation -->
@@ -51,7 +51,7 @@
     <nav class="navbar navbar-default navbar-toggleable-sm  hidden-md-up">
         <div class="navbar-header">
 
-            <button id="menu-icon" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button id="menu-icon" type="button" class="navbar-toggle" data-toggle="collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar icon-bar-first"></span>
                 <span class="icon-bar"></span>
@@ -67,24 +67,24 @@
             <span class="header-txt-container">
                 <img src="/img/bodegaselparaguas/banner_animado_es.gif" class="img-responsive">
             </span>
-            <div id="mobile_top_menu_wrapper" class="header-top">                  
+            <div id="mobile_top_menu_wrapper" class="header-top collapse">                  
                     <div class="header-rrss">
                         <a href="http://www.facebook.com/pages/Bodegas-El-Paraguas/269228339785798" title="Bodegas El Paraguas en Facebook" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_facebook.png" alt="Facebook"></a>
                         <a href="https://twitter.com/bodegelparaguas" title="Bodegas El Paraguas en Twitter" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_twitter.png" alt="Twitter"></a>
                         <a href="https://plus.google.com/100047185169661231444/posts?hl=es" title="Bodegas El Paraguas en Google+" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_google_35x35.jpg" alt="Google+"></a>
                     </div>
                     <ul class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-18"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item current_page_parent menu-item-6"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443 current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/bodega/">Bodega</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/quienes-somos/">Quiénes somos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/terroir/">Terroir</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/vinos/">Vinos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/i-d-i/">I + D + I ASTILLERO</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/">Reconocimientos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/prensa/">Prensa</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/club-de-amigos/">Club de amigos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/contacto/">Contacto</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/descargas/">Descargas</a></li>
+                        <li class="menu-item current-menu-item"><a href="http://tienda.bodegaselparaguas.com/">Tienda</a></li>
                     </ul> 
                     <div class="clearfix"></div>
             </div>
@@ -125,9 +125,9 @@
           </div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">
-          <div class="float-xs-left" id="menu-icon">
+          <!--<div class="float-xs-left" id="menu-icon">
             <i class="material-icons d-inline">&#xE5D2;</i>
-          </div>
+          </div>-->
           <div class="float-xs-right" id="_mobile_cart"></div>
           <div class="float-xs-right" id="_mobile_user_info"></div>
           <div class="top-logo" id="_mobile_logo"></div>

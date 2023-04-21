@@ -487,7 +487,10 @@ a {
     background-color: var(--color-corporativo);
 }
 
-.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .responsive-menu .current-menu-item > a, .responsive-menu .current-menu-ancestor > a {
+.main-navigation .current-menu-item > a, 
+.main-navigation .current-menu-ancestor > a, 
+.navbar-nav .current-menu-item > a, 
+.navbar-nav .current-menu-ancestor > a {
     font-weight: 700;
     text-decoration: underline;
 }
@@ -650,6 +653,10 @@ button:focus {
         display: inline-block;
         padding-right: 2px;
         color:#777 !important;
+    }
+
+    .links .title {
+        border-bottom: none;
     }
 
 }

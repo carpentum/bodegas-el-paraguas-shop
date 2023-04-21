@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-20 19:01:18
+/* Smarty version 4.2.1, created on 2023-04-21 13:22:25
   from 'C:\wamp64\www\prestashop\themes\bodegaselparaguas\templates\_partials\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_64416fde163680_84591860',
+  'unifunc' => 'content_644271f1786a62_14937734',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2552a9d3439c0e3f33db31c79e2e793d709850c1' => 
     array (
       0 => 'C:\\wamp64\\www\\prestashop\\themes\\bodegaselparaguas\\templates\\_partials\\header.tpl',
-      1 => 1682010061,
+      1 => 1682075961,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64416fde163680_84591860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_644271f1786a62_14937734 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -33,17 +33,17 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
         <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Menú Primario">
             <div class="menu-menu-ppal-container">
                 <ul id="menu-menu-ppal" class="primary-menu">
-                    <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
-                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
-                    <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
-                    <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
-                    <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
-                    <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-18"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
-                    <li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-4 current_page_item current_page_parent menu-item-6"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
-                    <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
-                    <li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
-                    <li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
-                    <li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443 current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
+                    <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
+                    <li class="menu-item current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
                 </ul>
             </div>                                
         </nav><!-- .main-navigation -->
@@ -53,7 +53,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <nav class="navbar navbar-default navbar-toggleable-sm  hidden-md-up">
         <div class="navbar-header">
 
-            <button id="menu-icon" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button id="menu-icon" type="button" class="navbar-toggle" data-toggle="collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar icon-bar-first"></span>
                 <span class="icon-bar"></span>
@@ -69,24 +69,24 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
             <span class="header-txt-container">
                 <img src="/img/bodegaselparaguas/banner_animado_es.gif" class="img-responsive">
             </span>
-            <div id="mobile_top_menu_wrapper" class="header-top">                  
+            <div id="mobile_top_menu_wrapper" class="header-top collapse">                  
                     <div class="header-rrss">
                         <a href="http://www.facebook.com/pages/Bodegas-El-Paraguas/269228339785798" title="Bodegas El Paraguas en Facebook" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_facebook.png" alt="Facebook"></a>
                         <a href="https://twitter.com/bodegelparaguas" title="Bodegas El Paraguas en Twitter" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_twitter.png" alt="Twitter"></a>
                         <a href="https://plus.google.com/100047185169661231444/posts?hl=es" title="Bodegas El Paraguas en Google+" target="_blank"><img src="http://www.bodegaselparaguas.com/wp-content/uploads/2017/12/logo_google_35x35.jpg" alt="Google+"></a>
                     </div>
                     <ul class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.bodegaselparaguas.com/es_ES/bodega/">Bodega</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.bodegaselparaguas.com/es_ES/quienes-somos/">Quiénes somos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.bodegaselparaguas.com/es_ES/terroir/">Terroir</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://www.bodegaselparaguas.com/es_ES/vinos/">Vinos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://www.bodegaselparaguas.com/es_ES/i-d-i/">I + D + I ASTILLERO</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-18"><a href="http://www.bodegaselparaguas.com/es_ES/">Reconocimientos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item current_page_parent menu-item-6"><a href="http://www.bodegaselparaguas.com/es_ES/prensa/">Prensa</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443 current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/bodega/">Bodega</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/quienes-somos/">Quiénes somos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/terroir/">Terroir</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/vinos/">Vinos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/i-d-i/">I + D + I ASTILLERO</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/">Reconocimientos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/prensa/">Prensa</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/club-de-amigos/">Club de amigos</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/contacto/">Contacto</a></li>
+                        <li class="menu-item"><a href="http://www.bodegaselparaguas.com/descargas/">Descargas</a></li>
+                        <li class="menu-item current-menu-item"><a href="http://tienda.bodegaselparaguas.com/">Tienda</a></li>
                     </ul> 
                     <div class="clearfix"></div>
             </div>
@@ -109,27 +109,27 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 <div class="separator-header-line separator-header-line-gruesa"></div>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_74232303064416fde140a30_30825736', 'header_banner');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_390645338644271f1778727_49343468', 'header_banner');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_41985168864416fde145a46_88929280', 'header_nav');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_762790430644271f177a6e2_31804284', 'header_nav');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_96091605064416fde14f768_93353328', 'header_top');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_73286605644271f177cc93_84124148', 'header_top');
 ?>
 
 <?php }
 /* {block 'header_banner'} */
-class Block_74232303064416fde140a30_30825736 extends Smarty_Internal_Block
+class Block_390645338644271f1778727_49343468 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_banner' => 
   array (
-    0 => 'Block_74232303064416fde140a30_30825736',
+    0 => 'Block_390645338644271f1778727_49343468',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -144,12 +144,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_banner'} */
 /* {block 'header_nav'} */
-class Block_41985168864416fde145a46_88929280 extends Smarty_Internal_Block
+class Block_762790430644271f177a6e2_31804284 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_nav' => 
   array (
-    0 => 'Block_41985168864416fde145a46_88929280',
+    0 => 'Block_762790430644271f177a6e2_31804284',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -169,9 +169,9 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
           </div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">
-          <div class="float-xs-left" id="menu-icon">
+          <!--<div class="float-xs-left" id="menu-icon">
             <i class="material-icons d-inline">&#xE5D2;</i>
-          </div>
+          </div>-->
           <div class="float-xs-right" id="_mobile_cart"></div>
           <div class="float-xs-right" id="_mobile_user_info"></div>
           <div class="top-logo" id="_mobile_logo"></div>
@@ -185,12 +185,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_nav'} */
 /* {block 'header_top'} */
-class Block_96091605064416fde14f768_93353328 extends Smarty_Internal_Block
+class Block_73286605644271f177cc93_84124148 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_top' => 
   array (
-    0 => 'Block_96091605064416fde14f768_93353328',
+    0 => 'Block_73286605644271f177cc93_84124148',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
