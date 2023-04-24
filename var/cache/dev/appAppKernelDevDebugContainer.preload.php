@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
-require __DIR__.'/Container8Hw1iuW/appAppKernelDevDebugContainer.php';
+require __DIR__.'/ContainerMzRxTdK/appAppKernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -165,7 +165,6 @@ $classes[] = 'PrestaShopBundle\Controller\Exception\FieldNotFoundException';
 $classes[] = 'PrestaShopBundle\DependencyInjection\RuntimeConstEnvVarProcessor';
 $classes[] = 'PrestaShopBundle\Form\Admin\Type\AmountCurrencyType';
 $classes[] = 'PrestaShopBundle\Security\Admin\SessionRenewer';
-$classes[] = 'PrestaShop\Module\BlockWishList\Controller\WishlistConfigurationAdminController';
 $classes[] = 'PrestaShop\Module\Mbo\Api\Config\Env';
 $classes[] = 'PrestaShop\Module\Mbo\Api\Handler\ErrorHandler\ErrorHandler';
 $classes[] = 'PrestaShop\Module\Mbo\Api\Repository\ModuleRepository';
@@ -2130,15 +2129,6 @@ $classes[] = 'PrestaShopBundle\Service\Hook\HookFinder';
 $classes[] = 'PrestaShopBundle\DataCollector\HookRegistry';
 $classes[] = 'PrestaShopBundle\EventListener\LegacyParametersListener';
 $classes[] = 'PrestaShopBundle\EventListener\LegacyUrlListener';
-$classes[] = 'PrestaShop\Module\BlockWishList\Calculator\StatisticsCalculator';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\AllTimeStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\AllTimeStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentDayStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentDayStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentMonthStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentMonthStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentYearStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentYearStatisticsGridDefinitionFactory';
 $classes[] = 'PrestaShop\Module\LinkList\Adapter\ObjectModelHandler';
 $classes[] = 'PrestaShop\Module\LinkList\Cache\LegacyLinkBlockCache';
 $classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\CategoryChoiceProvider';
@@ -2224,8 +2214,6 @@ $classes[] = 'PrestaShopBundle\Service\DataProvider\UserProvider';
 $classes[] = 'PrestaShopBundle\Utils\FloatParser';
 $classes[] = 'PrestaShopBundle\Utils\ZipManager';
 $classes[] = 'PrestaShop\PrestaShop\Core\Form\IdentifiableObject\CommandBuilder\Product\SpecificPricePriorityCommandsBuilder';
-$classes[] = 'PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository';
-$classes[] = 'PrestaShop\Module\ProductComment\Repository\ProductCommentRepository';
 $classes[] = 'Symfony\Component\HttpKernel\Profiler\Profiler';
 $classes[] = 'Symfony\Component\HttpKernel\Profiler\FileProfilerStorage';
 $classes[] = 'Symfony\Component\HttpKernel\DataCollector\TimeDataCollector';

@@ -229,8 +229,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'prestashop.core.string.character_cleaner' => 'getPrestashop_Core_String_CharacterCleanerService',
             'prestashop.database.naming_strategy' => 'getPrestashop_Database_NamingStrategyService',
             'prestashop.translation.translator_language_loader' => 'getPrestashop_Translation_TranslatorLanguageLoaderService',
-            'product_comment_criterion_repository' => 'getProductCommentCriterionRepositoryService',
-            'product_comment_repository' => 'getProductCommentRepositoryService',
             'ps_accounts.context' => 'getPsAccounts_ContextService',
             'ps_accounts.facade' => 'getPsAccounts_FacadeService',
             'ps_accounts.installer' => 'getPsAccounts_InstallerService',
@@ -2014,15 +2012,12 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $b = new \Doctrine\Persistence\Mapping\Driver\MappingDriverChain();
 
         $c = ($this->services['annotation_reader'] ?? ($this->services['annotation_reader'] = new \Doctrine\Common\Annotations\AnnotationReader()));
-        $d = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => 'C:\\wamp64\\www\\prestashop\\modules\\productcomments\\src\\Entity']);
-        $d->addExcludePaths([0 => 'C:\\wamp64\\www\\prestashop\\modules\\productcomments\\src\\Entity/index.php']);
-        $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => 'C:\\wamp64\\www\\prestashop\\modules\\ps_checkout\\src\\Entity']);
-        $e->addExcludePaths([0 => 'C:\\wamp64\\www\\prestashop\\modules\\ps_checkout\\src\\Entity/index.php']);
+        $d = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => 'C:\\wamp64\\www\\prestashop\\modules\\ps_checkout\\src\\Entity']);
+        $d->addExcludePaths([0 => 'C:\\wamp64\\www\\prestashop\\modules\\ps_checkout\\src\\Entity/index.php']);
 
         $b->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => 'C:\\wamp64\\www\\prestashop\\src\\PrestaShopBundle\\Entity']), 'PrestaShop');
-        $b->addDriver($d, 'PrestaShop\\Module\\ProductComment\\Entity');
         $b->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => 'C:\\wamp64\\www\\prestashop\\modules\\ps_accounts\\src\\Entity']), 'PrestaShop\\Module\\PsAccounts\\Entity');
-        $b->addDriver($e, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
+        $b->addDriver($d, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
 
         $a->setEntityNamespaces(['PrestaShopBundle\\Entity' => 'PrestaShop']);
         $a->setMetadataCache(new \Symfony\Component\Cache\Adapter\ArrayAdapter());
@@ -2039,7 +2034,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $a->setEntityListenerResolver(new \Doctrine\Bundle\DoctrineBundle\Mapping\ContainerEntityListenerResolver($this));
         $a->setRepositoryFactory(new \Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory(new \Symfony\Component\DependencyInjection\ServiceLocator([])));
         $a->addCustomStringFunction('regexp', 'DoctrineExtensions\\Query\\Mysql\\Regexp');
-        $a->addEntityNamespace('Moduleproductcomments', 'PrestaShop\\Module\\ProductComment\\Entity');
         $a->addEntityNamespace('ModulepsAccounts', 'PrestaShop\\Module\\PsAccounts\\Entity');
         $a->addEntityNamespace('ModulepsCheckout', 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
 
@@ -2478,26 +2472,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     protected function getPrestashop_Translation_TranslatorLanguageLoaderService()
     {
         return $this->services['prestashop.translation.translator_language_loader'] = new \PrestaShopBundle\Translation\TranslatorLanguageLoader(($this->services['prestashop.adapter.module.repository.module_repository'] ?? ($this->services['prestashop.adapter.module.repository.module_repository'] = new \PrestaShop\PrestaShop\Adapter\Module\Repository\ModuleRepository('C:\\wamp64\\www\\prestashop', 'C:\\wamp64\\www\\prestashop/modules/'))));
-    }
-
-    /**
-     * Gets the public 'product_comment_criterion_repository' shared service.
-     *
-     * @return \PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository
-     */
-    protected function getProductCommentCriterionRepositoryService()
-    {
-        return $this->services['product_comment_criterion_repository'] = new \PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository(($this->services['doctrine.dbal.default_connection'] ?? $this->getDoctrine_Dbal_DefaultConnectionService()), 'ps_');
-    }
-
-    /**
-     * Gets the public 'product_comment_repository' shared service.
-     *
-     * @return \PrestaShop\Module\ProductComment\Repository\ProductCommentRepository
-     */
-    protected function getProductCommentRepositoryService()
-    {
-        return $this->services['product_comment_repository'] = new \PrestaShop\Module\ProductComment\Repository\ProductCommentRepository(($this->services['doctrine.dbal.default_connection'] ?? $this->getDoctrine_Dbal_DefaultConnectionService()), 'ps_', ($this->services['prestashop.adapter.legacy.configuration'] ?? ($this->services['prestashop.adapter.legacy.configuration'] = new \PrestaShop\PrestaShop\Adapter\Configuration()))->get("PRODUCT_COMMENTS_ALLOW_GUESTS"), ($this->services['prestashop.adapter.legacy.configuration'] ?? ($this->services['prestashop.adapter.legacy.configuration'] = new \PrestaShop\PrestaShop\Adapter\Configuration()))->get("PRODUCT_COMMENTS_MINIMAL_TIME"));
     }
 
     /**
@@ -3457,74 +3431,67 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'kernel.active_modules' => [
                 0 => 'ps_linklist',
                 1 => 'blockreassurance',
-                2 => 'blockwishlist',
-                3 => 'psgdpr',
-                4 => 'ps_contactinfo',
-                5 => 'ps_languageselector',
-                6 => 'ps_currencyselector',
-                7 => 'ps_shoppingcart',
-                8 => 'ps_imageslider',
-                9 => 'ps_featuredproducts',
-                10 => 'ps_banner',
-                11 => 'ps_customtext',
-                12 => 'ps_specials',
-                13 => 'ps_newproducts',
-                14 => 'ps_bestsellers',
-                15 => 'ps_emailsubscription',
-                16 => 'ps_socialfollow',
-                17 => 'productcomments',
-                18 => 'ps_categorytree',
-                19 => 'contactform',
-                20 => 'ps_sharebuttons',
-                21 => 'dashactivity',
-                22 => 'dashgoals',
-                23 => 'dashproducts',
-                24 => 'dashtrends',
-                25 => 'gamification',
-                26 => 'graphnvd3',
-                27 => 'gridhtml',
-                28 => 'gsitemap',
-                29 => 'mbeshipping',
-                30 => 'pagesnotfound',
-                31 => 'psxmarketingwithgoogle',
-                32 => 'ps_accounts',
-                33 => 'ps_eventbus',
-                34 => 'ps_brandlist',
-                35 => 'ps_cashondelivery',
-                36 => 'ps_categoryproducts',
-                37 => 'ps_checkout',
-                38 => 'ps_checkpayment',
-                39 => 'ps_crossselling',
-                40 => 'ps_dataprivacy',
-                41 => 'ps_distributionapiclient',
-                42 => 'ps_facebook',
-                43 => 'ps_faviconnotificationbo',
-                44 => 'ps_googleanalytics',
-                45 => 'ps_mbo',
-                46 => 'ps_metrics',
-                47 => 'ps_supplierlist',
-                48 => 'ps_themecusto',
-                49 => 'ps_viewedproduct',
-                50 => 'ps_wirepayment',
-                51 => 'statsbestcategories',
-                52 => 'statsbestcustomers',
-                53 => 'statsbestmanufacturers',
-                54 => 'statsbestproducts',
-                55 => 'statsbestsuppliers',
-                56 => 'statsbestvouchers',
-                57 => 'statscarrier',
-                58 => 'statscatalog',
-                59 => 'statscheckup',
-                60 => 'statsdata',
-                61 => 'statsforecast',
-                62 => 'statsnewsletter',
-                63 => 'statspersonalinfos',
-                64 => 'statsproduct',
-                65 => 'statsregistrations',
-                66 => 'statssales',
-                67 => 'statssearch',
-                68 => 'statsstock',
-                69 => 'ps_facetedsearch',
+                2 => 'psgdpr',
+                3 => 'ps_contactinfo',
+                4 => 'ps_languageselector',
+                5 => 'ps_currencyselector',
+                6 => 'ps_shoppingcart',
+                7 => 'ps_featuredproducts',
+                8 => 'ps_specials',
+                9 => 'ps_newproducts',
+                10 => 'ps_bestsellers',
+                11 => 'ps_categorytree',
+                12 => 'contactform',
+                13 => 'ps_sharebuttons',
+                14 => 'dashactivity',
+                15 => 'dashgoals',
+                16 => 'dashproducts',
+                17 => 'dashtrends',
+                18 => 'gamification',
+                19 => 'graphnvd3',
+                20 => 'gridhtml',
+                21 => 'gsitemap',
+                22 => 'mbeshipping',
+                23 => 'pagesnotfound',
+                24 => 'psxmarketingwithgoogle',
+                25 => 'ps_accounts',
+                26 => 'ps_eventbus',
+                27 => 'ps_brandlist',
+                28 => 'ps_cashondelivery',
+                29 => 'ps_categoryproducts',
+                30 => 'ps_checkout',
+                31 => 'ps_checkpayment',
+                32 => 'ps_crossselling',
+                33 => 'ps_dataprivacy',
+                34 => 'ps_distributionapiclient',
+                35 => 'ps_facebook',
+                36 => 'ps_faviconnotificationbo',
+                37 => 'ps_googleanalytics',
+                38 => 'ps_mbo',
+                39 => 'ps_metrics',
+                40 => 'ps_supplierlist',
+                41 => 'ps_themecusto',
+                42 => 'ps_viewedproduct',
+                43 => 'ps_wirepayment',
+                44 => 'statsbestcategories',
+                45 => 'statsbestcustomers',
+                46 => 'statsbestmanufacturers',
+                47 => 'statsbestproducts',
+                48 => 'statsbestsuppliers',
+                49 => 'statsbestvouchers',
+                50 => 'statscarrier',
+                51 => 'statscatalog',
+                52 => 'statscheckup',
+                53 => 'statsdata',
+                54 => 'statsforecast',
+                55 => 'statsnewsletter',
+                56 => 'statspersonalinfos',
+                57 => 'statsproduct',
+                58 => 'statsregistrations',
+                59 => 'statssales',
+                60 => 'statssearch',
+                61 => 'statsstock',
+                62 => 'ps_facetedsearch',
             ],
             'ps_cache_dir' => 'C:\\wamp64\\www\\prestashop/var/cache/dev\\',
             'mail_themes_uri' => '/mails/themes',

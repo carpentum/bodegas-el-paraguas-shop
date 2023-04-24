@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-21 13:22:27
+/* Smarty version 4.2.1, created on 2023-04-24 18:32:14
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_644271f37bda56_59761796',
+  'unifunc' => 'content_6446af0e9d9b25_24408358',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '906548e89c8c6025457ddaeffb1980a0c743b872' => 
     array (
       0 => 'module:pslinklistviewstemplatesh',
-      1 => 1682075028,
+      1 => 1682083346,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_644271f37bda56_59761796 (Smarty_Internal_Template $_smarty_tpl) {
-?><!-- begin C:\wamp64\www\prestashop/themes/bodegaselparaguas/modules/ps_linklist/views/templates/hook/linkblock.tpl --><div class="col-md-6 links">
+function content_6446af0e9d9b25_24408358 (Smarty_Internal_Template $_smarty_tpl) {
+?><!-- begin C:\wamp64\www\prestashop/themes/bodegaselparaguas/modules/ps_linklist/views/templates/hook/linkblock.tpl --><div class="links">
   <div class="row">
   <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['linkBlocks']->value, 'linkBlock');
@@ -29,7 +29,7 @@ $_smarty_tpl->tpl_vars['linkBlock']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['linkBlock']->value) {
 $_smarty_tpl->tpl_vars['linkBlock']->do_else = false;
 ?>
-    <div class="col-md-6 wrapper">
+    <div class="wrapper">
       <!--<p class="h3 hidden-sm-down"><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['linkBlock']->value['title'], ENT_QUOTES, 'UTF-8');?>
 </p>-->
       <!--<div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['linkBlock']->value['id'], ENT_QUOTES, 'UTF-8');?>
