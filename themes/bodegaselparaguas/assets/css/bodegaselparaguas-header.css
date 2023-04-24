@@ -356,7 +356,11 @@ img {
     z-index: 100;
 }
 
-button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
+button, button:hover, button:focus, 
+button[disabled]:hover, button[disabled]:focus, 
+input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, 
+input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, 
+input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
     background: #1a1a1a;
     border: 0;
     border-radius: 2px;
@@ -690,18 +694,6 @@ button:focus {
     margin-right: 17px;
 }
 
-button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
-    background: #1a1a1a;
-    border: 0;
-    border-radius: 2px;
-    font-family: var(--font-family-corporativa);
-    font-weight: 700;
-    letter-spacing: 0.046875em;
-    line-height: 1;
-    padding: 0.84375em 0.875em 0.78125em;
-    text-transform: uppercase;
-}
-
 body, button, input, select, textarea {
     /* font-family: var(--font-family-corporativa); */
     font-family: 'MuseoSans';
@@ -802,6 +794,35 @@ img {
 #content-wrapper p {
     margin: 0 0 1.75em;
     font-weight: 100;
+}
+
+a.all-product-link,
+h2.products-section-title {
+    display: none;
+}
+
+.product-flags li.product-flag,
+.btn-primary, .btn-primary,
+.btn-primary:hover, .btn-primary:hover,
+.btn-primary.disabled, .btn-primary:disabled,
+.btn-primary.disabled:hover, .btn-primary:disabled:hover {
+    background: var(--color-corporativo);
+}
+
+.product-price {
+    color: var(--color-corporativo);
+}
+
+.product-images>li.thumb-container>.thumb.selected, .product-images>li.thumb-container>.thumb:hover {
+    border: var(--color-corporativo) 3px solid;
+}
+
+.tabs .nav-tabs .nav-link.active {
+    color: var(--color-corporativo);
+}
+
+.tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
+    border-bottom: var(--color-corporativo) 3px solid;
 }
 
 /********* END CONTENT ************/

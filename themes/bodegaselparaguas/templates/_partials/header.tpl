@@ -41,7 +41,7 @@
                     <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/club-de-amigos/">Club de amigos</a></li>
                     <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/contacto/">Contacto</a></li>
                     <li class="menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Descargas</a></li>
-                    <li class="menu-item current-menu-item"><a href="http://www.bodegaselparaguas.com/es_ES/descargas/">Tienda</a></li>
+                    <li class="menu-item current-menu-item"><a href="http://tienda.bodegaselparaguas.com/">Tienda</a></li>
                 </ul>
             </div>                                
         </nav><!-- .main-navigation -->
