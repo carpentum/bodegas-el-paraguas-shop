@@ -97,11 +97,14 @@
         {hook h="displayWrapperBottom"}
       </section>
 
-      <footer id="footer" class="js-footer">
-        {block name="footer"}
-          {include file="_partials/footer.tpl"}
-        {/block}
-      </footer>
+      <div class="separator-header-line separator-header-line-gruesa"></div>
+    <footer class="site-footer">
+        <div class="site-info">
+            <span class="site-footer-companyinfo">
+                <a href="http://www.bodegaselparaguas.com/es_ES/" rel="home"></a> ©{date("Y")} | Lugar de Aldea, 135 - 15594 - Cobas, Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">Política de privacidad</a>
+            </span>
+        </div>
+    </footer>
 
     </main>
 

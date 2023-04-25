@@ -23,44 +23,12 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-<div class="container">
-  <div class="row">
-    {block name='hook_footer_before'}
-      {hook h='displayFooterBefore'}
-    {/block}
-  </div>
-</div>
-<div class="footer-container">
-  <div class="container">
-    <div class="row">
-      {block name='hook_footer'}
-        {hook h='displayFooter'}
-      {/block}
-    </div>
-    <div class="row">
-      {block name='hook_footer_after'}
-        {hook h='displayFooterAfter'}
-      {/block}
-    </div>
-    <!--<div class="row">
-      <div class="col-md-12">
-        <p class="text-sm-center">
-          {block name='copyright_link'}
-            <a href="https://www.prestashop-project.org/" target="_blank" rel="noopener noreferrer nofollow">
-              {l s='%copyright% %year% - Ecommerce software by %prestashop%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
-            </a>
-          {/block}
-        </p>
-      </div>
-    </div>-->
-  </div>
-</div>
 
 <div class="separator-header-line separator-header-line-gruesa"></div>
 <footer class="site-footer">
     <div class="site-info">
         <span class="site-footer-companyinfo">
-            <a href="http://www.bodegaselparaguas.com/es_ES/" rel="home"></a> ©2023) | Lugar de Aldea, 135 - 15594 - Cobas, Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">Política de privacidad</a>
+            <a href="http://www.bodegaselparaguas.com/es_ES/" rel="home"></a> ©{date("Y")} | Lugar de Aldea, 135 - 15594 - Cobas, Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">Política de privacidad</a>
         </span>
     </div>
 </footer>

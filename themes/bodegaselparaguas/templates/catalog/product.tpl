@@ -139,7 +139,7 @@
             {/block}
 
             {block name='product_tabs'}
-              <div class="tabs">
+              <!--<div class="tabs">
                 <ul class="nav nav-tabs" role="tablist">
                   {if $product.description}
                     <li class="nav-item">
@@ -181,7 +181,7 @@
                         aria-controls="extra-{$extraKey}">{$extra.title}</a>
                     </li>
                   {/foreach}
-                </ul>
+                </ul>-->
 
                 <div class="tab-content" id="tab-content">
                  <div class="tab-pane fade in{if $product.description} active js-product-tab-active{/if}" id="description" role="tabpanel">
@@ -190,7 +190,7 @@
                    {/block}
                  </div>
 
-                 {block name='product_details'}
+                 <!--{block name='product_details'}
                    {include file='catalog/_partials/product-details.tpl'}
                  {/block}
 
@@ -218,7 +218,7 @@
                    {$extra.content nofilter}
                  </div>
                  {/foreach}
-              </div>
+              </div>-->
             </div>
           {/block}
         </div>

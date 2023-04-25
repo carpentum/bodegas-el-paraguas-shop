@@ -226,7 +226,7 @@
     <body>
       <trans-unit id="11f4b4ba23dc72ee5e86ff5a90bdde60" approved="yes">
         <source>Log in to your account</source>
-        <target state="final">Iniciar sesión con su cuenta</target>
+        <target state="final">Iniciar sesión</target>
         <note>Line: 28</note>
       </trans-unit>
       <trans-unit id="952998528c20798fbd22b49d505a29d5" approved="yes">

@@ -847,7 +847,7 @@
   ),
   'Carrier' => 
   array (
-    'path' => 'override/classes/Carrier.php',
+    'path' => '',
     'type' => 'class',
     'override' => false,
   ),

@@ -277,7 +277,6 @@ article, aside, details, figcaption, figure, footer, header-wrapper, main, menu,
 body, button, input, select, textarea {
     font-family: var(--font-family-corporativa);
     font-style: normal;
-    font-weight: 100;
 }
 
 .main-navigation ul {
@@ -362,14 +361,15 @@ input[type="button"], input[type="button"][disabled]:hover, input[type="button"]
 input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, 
 input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
     background: #1a1a1a;
-    border: 0;
-    border-radius: 2px;
     font-family: var(--font-family-corporativa);
     font-weight: 700;
     letter-spacing: 0.046875em;
     line-height: 1;
-    padding: 0.84375em 0.875em 0.78125em;
     text-transform: uppercase;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
+    background-color: var(--color-corporativo);
 }
 
 .header-rrss {
@@ -656,7 +656,7 @@ button:focus {
     .nav.navbar-nav li a {
         display: inline-block;
         padding-right: 2px;
-        color:#777 !important;
+        color:var(--color-corporativo) !important;
     }
 
     .links .title {
@@ -679,7 +679,7 @@ button:focus {
 .navbar-nav li.menu-item a {
     padding-left: 20px;
     font-size: 16px;
-    color: #777;
+    color: var(--color-corporativo);
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px;
@@ -773,7 +773,7 @@ img {
 
 #content-wrapper {
     padding-top: 10px;
-    color: #171C05;
+    color: var(--font-color-fondoblanco);
     font-family: 'MuseoSans';
 }
 
@@ -793,6 +793,13 @@ img {
 
 #content-wrapper p {
     margin: 0 0 1.75em;
+    font-weight: 100;
+}
+
+.product-miniature .product-title a,
+.product-miniature .product-price-and-shipping {
+    color: var(--font-color-fondoblanco);
+    font-family: 'MuseoSans';
     font-weight: 100;
 }
 
@@ -827,6 +834,82 @@ h2.products-section-title {
 
 /********* END CONTENT ************/
 
-a:hover, a:visited {
+a, a:hover, a:visited {
+    color: var(--color-corporativo);
+}
+
+.product-miniature .highlighted-informations .quick-view:hover {
+    color: var(--color-corporativo);
+}
+
+#blockcart-modal .product-name {
+    color: var(--color-corporativo);
+}
+
+#header .header-nav .cart-preview.active {
+    background: var(--color-corporativo);
+}
+
+div.cart-detailed-actions a, 
+div.cart-detailed-actions a:hover, 
+div.cart-detailed-actions a:visited {
+    color: #fff;
+}
+
+#subcategories ul li .subcategory-name:hover, 
+.block-categories .arrows .arrow-down:hover, 
+.block-categories .arrows .arrow-right:hover, 
+.block-categories .collapse-icons .add:hover, 
+.block-categories .collapse-icons .remove:hover, 
+.cart-grid-body a.label:hover {
+    color: var(--color-corporativo);
+}
+
+.h5, .h6 {
+    font-weight: 100;
+    font-size: 16px;
+    color:var(--font-color-fondoblanco)
+}
+
+.page-content.page-cms ul, p,
+h1, h2, h3, h4, h5, h6 {
+    color: var(--font-color-fondoblanco);
+}
+
+.product-description h5 {
+    color: var(--color-corporativo);
+    border-bottom: 1px solid var(--color-corporativo);
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
+    color: #fff;
+    background-color: var(--color-corporativo);
+    border-color: transparent;
+}
+
+.btn, .btn-primary, .btn-secondary {
+    line-height: 1;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: var(--color-corporativo);
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:focus {
+    background-color: var(--color-corporativo);
+}
+
+.carousel .carousel-control .icon-next:hover i, 
+.carousel .carousel-control .icon-prev:hover i, 
+.dropdown:hover .expand-more, 
+.page-my-account #content .links a:hover i, 
+.search-widget form button[type=submit] .search:hover, 
+.top-menu .sub-menu a:hover,
+#header a:hover,
+#block_myaccount_infos .myaccount-title a, 
+#header a, #wrapper .breadcrumb li a, 
+.block-contact .block-contact-title, 
+.block-contact .navbar-toggler .material-icons, 
+.linklist .blockcms-title a {
     color: var(--color-corporativo);
 }

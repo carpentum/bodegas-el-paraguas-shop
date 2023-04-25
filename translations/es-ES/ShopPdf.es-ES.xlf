@@ -64,7 +64,7 @@
       </trans-unit>
       <trans-unit id="8bcc82aa54d3755fffa1f1d4cbd8e95d" approved="yes">
         <source>TI: Tax included</source>
-        <target state="final">II: Impuestos incluidos</target>
+        <target state="final">II: IVA Incluído</target>
         <note>Line: 216</note>
       </trans-unit>
     </body>

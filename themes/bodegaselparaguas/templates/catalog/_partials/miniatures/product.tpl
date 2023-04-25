@@ -51,7 +51,7 @@
           {/if}
         {/block}
 
-        <div class="highlighted-informations{if !$product.main_variants} no-variants{/if}">
+        <!--<div class="highlighted-informations{if !$product.main_variants} no-variants{/if}">
           {block name='quick_view'}
             <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
               <i class="material-icons search">&#xE8B6;</i> {l s='Quick view' d='Shop.Theme.Actions'}
@@ -64,7 +64,7 @@
             {/if}
           {/block}
         </div>
-      </div>
+      </div>-->
 
       <div class="product-description">
         {block name='product_name'}
@@ -98,6 +98,7 @@
                 {else}
                   {$product.price}
                 {/if}
+                IVA Incluído
               </span>
 
               {hook h='displayProductPriceBlock' product=$product type='unit_price'}

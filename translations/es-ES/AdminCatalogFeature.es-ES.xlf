@@ -2533,7 +2533,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="f4a0d7cb0cd45214c8ca5912c970de13" approved="yes">
         <source>Tax included</source>
-        <target state="final">Impuestos incluidos</target>
+        <target state="final">IVA Incluído</target>
         <note>Line: 232</note>
       </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">

@@ -69,7 +69,7 @@
     <body>
       <trans-unit id="f4a0d7cb0cd45214c8ca5912c970de13" approved="yes">
         <source>Tax included</source>
-        <target state="final">Impuestos incluidos</target>
+        <target state="final">IVA Incluído</target>
         <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="befcac0f9644a7abee43e69f49252ac4" approved="yes">
@@ -155,7 +155,7 @@
       </trans-unit>
       <trans-unit id="3b5a05f2c4a0373c7a6e8d1cfec7020f" approved="yes">
         <source>Included taxes</source>
-        <target state="final">Impuestos incluidos</target>
+        <target state="final">IVA Incluído</target>
         <note>Line: 389</note>
       </trans-unit>
       <trans-unit id="719fec04166d6fa75f89cd29ad61fa8c" approved="yes">
