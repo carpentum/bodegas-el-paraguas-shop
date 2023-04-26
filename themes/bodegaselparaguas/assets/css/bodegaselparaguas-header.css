@@ -636,10 +636,6 @@ button:focus {
         margin-bottom: 0;
     }
 
-    .navbar-header {
-        /*padding-bottom: 5px;*/
-    }
-
     .header-txt-container {
         text-align: center;
         padding-right: 10px;
@@ -702,7 +698,6 @@ body, button, input, select, textarea {
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
-    -webkit-appearance: button;
     cursor: pointer;
 }
 
