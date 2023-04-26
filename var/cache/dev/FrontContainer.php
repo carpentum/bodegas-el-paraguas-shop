@@ -3492,7 +3492,6 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 60 => 'statssearch',
                 61 => 'statsstock',
                 62 => 'ps_facetedsearch',
-                63 => 'ps_customeraccountlinks',
             ],
             'ps_cache_dir' => 'C:\\wamp64\\www\\prestashop/var/cache/dev\\',
             'mail_themes_uri' => '/mails/themes',
