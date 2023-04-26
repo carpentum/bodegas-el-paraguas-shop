@@ -787,8 +787,11 @@ img {
 }
 
 #content-wrapper p {
-    margin: 0 0 1.75em;
     font-weight: 100;
+}
+
+#content-wrapper .product-description p {
+    margin: 0 0 1.75em;
 }
 
 .product-miniature .product-title a,
