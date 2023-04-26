@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-26 10:06:45
+/* Smarty version 4.2.1, created on 2023-04-26 10:28:43
   from 'module:psshoppingcartpsshoppingc' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6448db953c4f26_44170974',
+  'unifunc' => 'content_6448e0bbe65c59_60549397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6448db953c4f26_44170974 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6448e0bbe65c59_60549397 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin C:\wamp64\www\prestashop/themes/bodegaselparaguas/modules/ps_shoppingcart/ps_shoppingcart.tpl --><div id="_desktop_cart">
   <div class="blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count'] > 0) {?>active<?php } else { ?>inactive<?php }?>" data-refresh-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">

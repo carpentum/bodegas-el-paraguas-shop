@@ -913,3 +913,7 @@ h1, h2, h3, h4, h5, h6 {
 .linklist .blockcms-title a {
     color: var(--color-corporativo);
 }
+
+.form-control:focus {
+    outline: .1875rem solid var(--color-corporativo);
+}
