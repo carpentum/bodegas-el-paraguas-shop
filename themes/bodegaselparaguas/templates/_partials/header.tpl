@@ -113,7 +113,7 @@
 {/block}
 
 {block name='header_nav'}
-  <nav class="header-nav">
+  <nav class="header-nav container-fluid">
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-5 col-xs-12">
