@@ -185,6 +185,12 @@
     padding-bottom:20px;
 }
 
+.carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid, .img-thumbnail {
+    max-width: 55%;
+    margin: 0 auto;
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
     .header-txt-container {
         padding-top: 51px;
@@ -197,6 +203,10 @@
     .site-footer-companyinfo {
         text-align: center;
         display: block;
+    }
+
+    .carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid, .img-thumbnail {
+        max-width: 65%;
     }
 }
 
