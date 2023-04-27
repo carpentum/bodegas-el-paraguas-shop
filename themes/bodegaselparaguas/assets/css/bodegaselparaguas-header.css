@@ -206,7 +206,7 @@
     }
 
     .carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid, .img-thumbnail {
-        max-width: 65%;
+        max-width: 85%;
     }
 }
 
