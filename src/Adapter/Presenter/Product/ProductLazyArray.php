@@ -505,6 +505,13 @@ class ProductLazyArray extends AbstractLazyArray
             ];
         }
 
+        if ($this->shouldShowLowStockLabel($this->settings, $this->product)) {
+            $flags['low_stock'] = [
+                'type' => 'low_stock',
+                'label' => 'Últimas botellas',
+            ];
+        }
+
         $this->hookManager->exec('actionProductFlagsModifier', [
             'flags' => &$flags,
             'product' => $this->product,
@@ -655,6 +662,25 @@ class ProductLazyArray extends AbstractLazyArray
             }
         } elseif ($product['quantity'] > 0) {
             // Displayed only if the product stock is <= 0
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * @param array $product
+     *
+     * @return bool
+     */
+    private function shouldShowLowStockLabel(ProductPresentationSettings $settings, array $product): bool
+    {
+        if (!$this->configuration->getBoolean('PS_STOCK_MANAGEMENT')) {
+            return false;
+        }
+
+        if ($product['quantity'] > 5000 || $product['quantity'] == 0) {
+            // Displayed only if the product stock is <= 100
             return false;
         }
 

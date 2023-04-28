@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-27 14:02:50
+/* Smarty version 4.2.1, created on 2023-04-28 14:29:58
   from 'module:pscontactinfonav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_644a646a352f90_54500011',
+  'unifunc' => 'content_644bbc46566035_67433462',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_644a646a352f90_54500011 (Smarty_Internal_Template $_smarty_tpl) {
+function content_644bbc46566035_67433462 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\prestashop\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 <!-- begin C:\wamp64\www\prestashop/themes/bodegaselparaguas/modules/ps_contactinfo/nav.tpl --><!--<div id="_desktop_contact_link">
