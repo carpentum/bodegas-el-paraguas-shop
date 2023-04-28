@@ -40,7 +40,7 @@
         <div class="row"></div>
             {foreach $linkBlock.links as $link}
             <!--<li>-->
-                <div class="col-xs-3 text-sm-center">
+                <div class="col-xs-4 text-sm-center">
                     <a
                         id="{$link.id}-{$linkBlock.id}"
                         class="{$link.class}"
