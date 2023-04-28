@@ -2310,7 +2310,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="4ad46e43817d735c3cadff659cc8a455" approved="yes">
         <source>Behavior when out of stock</source>
-        <target state="final">Comportamiento cuando el producto se encuentre fuera de stock</target>
+        <target state="final">Comportamiento cuando el producto se encuentre agotado</target>
         <note>Line: 172</note>
       </trans-unit>
       <trans-unit id="9a9d0d58778ce84d86a1f07df5867112" approved="yes">

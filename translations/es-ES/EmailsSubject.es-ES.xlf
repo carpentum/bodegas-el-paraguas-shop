@@ -137,7 +137,7 @@
       </trans-unit>
       <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
         <source>Product out of stock</source>
-        <target state="final">Producto fuera de stock</target>
+        <target state="final">Producto agotado</target>
         <note>Line: 632</note>
       </trans-unit>
       <trans-unit id="2eed868f1c9e7e2cd302334fd7885e35" approved="yes">

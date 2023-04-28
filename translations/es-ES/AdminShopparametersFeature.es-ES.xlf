@@ -144,7 +144,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOA on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
         <source>Out-of-Stock</source>
-        <target state="final">Fuera de stock</target>
+        <target state="final">Agotado</target>
         <note>Line: 68
 Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
@@ -1293,7 +1293,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="be6be43cab36ddf8024d237c4a2414f7" approved="yes">
         <source>Allow ordering of out-of-stock products</source>
-        <target state="final">Permitir ventas de productos que están fuera de stock</target>
+        <target state="final">Permitir ventas de productos que están agotados</target>
         <note>Line: 100</note>
       </trans-unit>
       <trans-unit id="966c11f36eeb298187639eea581a7522" approved="yes">

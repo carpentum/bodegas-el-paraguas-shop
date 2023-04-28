@@ -582,7 +582,7 @@
       </trans-unit>
       <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb" approved="yes">
         <source>Out of stock</source>
-        <target state="final">Fuera de stock</target>
+        <target state="final">Agotado</target>
         <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="4b7f36059725914c3abe3fe69a42d860" approved="yes">
