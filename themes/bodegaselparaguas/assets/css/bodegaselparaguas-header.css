@@ -920,6 +920,12 @@ a:visited {
   color: var(--color-corporativo);
 }
 
+.site-footer-companyinfo a,
+.site-footer-companyinfo a:hover,
+.site-footer-companyinfo a:visited {
+  color: #fff;
+}
+
 .product-miniature .highlighted-informations .quick-view:hover {
   color: var(--color-corporativo);
 }
