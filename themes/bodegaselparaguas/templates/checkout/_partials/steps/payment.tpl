@@ -98,7 +98,7 @@
       <ul>
         {foreach from=$conditions_to_approve item="condition" key="condition_name"}
           <li>
-            <div class="float-xs-left">
+            <div style="float:left;width:30px;height:30px;">
               <span class="custom-checkbox">
                 <input  id    = "conditions_to_approve[{$condition_name}]"
                         name  = "conditions_to_approve[{$condition_name}]"
