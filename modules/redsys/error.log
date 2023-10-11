@@ -1,0 +1,27 @@
+
+2023-07-24 13:53:11
+Array
+(
+    [type] => 16384
+    [message] => Not specifying the optional ShopConstraint parameter is deprecated since version 1.7.8.0
+    [file] => /var/www/vhosts/idnovate.com/httpdocs/test/ps81/src/Adapter/Configuration.php
+    [line] => 427
+)
+
+2023-07-24 15:15:07
+Array
+(
+    [type] => 16384
+    [message] => Not specifying the optional ShopConstraint parameter is deprecated since version 1.7.8.0
+    [file] => /var/www/vhosts/idnovate.com/httpdocs/test/ps81/src/Adapter/Configuration.php
+    [line] => 427
+)
+
+2023-07-26 16:22:49
+Array
+(
+    [type] => 16384
+    [message] => Not specifying the optional ShopConstraint parameter is deprecated since version 1.7.8.0
+    [file] => /var/www/vhosts/idnovate.com/httpdocs/test/ps81/src/Adapter/Configuration.php
+    [line] => 427
+)

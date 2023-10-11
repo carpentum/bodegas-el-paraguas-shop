@@ -1,0 +1,5 @@
+table.redsys_transaction .badge a { color: #fff; }
+table.redsys_transaction .badge a:hover { text-decoration: none; }
+
+body.adminredsystpv input.form-control[id^=partial_refund]{min-width:100px;}
+body.adminredsystpv .dropdown-menu { padding: 10px !important; }
