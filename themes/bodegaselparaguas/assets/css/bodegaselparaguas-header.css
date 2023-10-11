@@ -1076,3 +1076,8 @@ section.featured-products {
   background-color: var(--color-corporativo);
   color: var(--font-color-overfondoppal);
 }
+
+.redsys_ko h1 {
+  width: fit-content;
+  margin: 0 auto;
+}
